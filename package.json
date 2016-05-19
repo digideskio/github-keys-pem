@@ -1,0 +1,29 @@
+{
+  "name": "github-keys-pem",
+  "version": "1.0.0",
+  "description": "github public keys but along with pem/pkcs8 format and shasum for crypto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soldair/github-keys-pem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soldair/github-keys-pem/issues"
+  },
+  "homepage": "https://github.com/soldair/github-keys-pem#readme",
+  "dependencies": {
+    "github-keys": "^1.0.1",
+    "once": "^1.3.3",
+    "ursa": "^0.9.4"
+  },
+  "devDependencies": {
+    "nyc": "^6.4.4",
+    "tape": "^4.5.1"
+  }
+}
